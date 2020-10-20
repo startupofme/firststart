@@ -1,0 +1,21 @@
+div.d1{
+    width:100px;
+    height:100px;
+    background-color:dodgerblue;
+}
+div.d2{
+    width:100px;
+    height:100px;
+    background-color:dodgerblue;
+    border-radius: 20px;
+
+}
+div.d3{
+    width:100px;
+    height:100px;
+    background-image:url("../img/candel.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    border: 20px groove orangered;
+}

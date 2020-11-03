@@ -1,0 +1,24 @@
+html{
+    background-color: #0ebfe9;
+}
+body{
+    width:70%;
+    background-color: #16A2D7;
+    border: 5px solid darkblue;
+    margin:0 auto;
+}
+img{
+    display:block;
+    border-radius: 50%;
+    border:5px groove darkred;
+    margin: 20px auto;
+}
+h1,p {
+    margin:10px;
+}
+#firsth1{
+    color:red;
+}
+#secondh1{
+    color: yellow;
+}

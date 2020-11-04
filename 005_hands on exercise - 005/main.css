@@ -1,0 +1,13 @@
+a {
+    color:yellow;
+    border:1px solid orange;
+    padding: 30px;
+    text-align: center;
+}
+.blue {
+    color:blue;
+    margin:50px;
+}
+a[target="_blank"] {
+    color:green;
+       }

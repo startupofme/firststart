@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+div{
+    border: 1px solid deepskyblue;
+}
+/*background-color - vh*/
+#hello{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+}
+h1{
+    color: white;
+    font-size: 10rem;
+}
+/*background-image*/
+#dogb1{
+    width: 100%;
+    height: 100vh;
+    background-image: url("dog.png");
+    background-repeat: repeat;
+}
+/*background-image - repeat*/
+#dogb2{
+    width: 100%;
+    height: 100vh;
+    background-image: url("dog.png");
+    background-repeat: repeat-y;
+}
+/*background-size - pixel*/
+#dogb3{
+    width: 100%;
+    height: 100vh;
+    background-image: url("dog.png");
+    background-repeat: repeat-y;
+    background-size: 250px 50px;
+}
+/*background-size - % */
+#dogb4{
+    width: 100%;
+    height: 100vh;
+    background-image: url("dog.png");
+    background-repeat: no-repeat;
+    background-size: 35%;
+}
+/*background-size - contain */
+#dogb5{
+    width: 35%;
+    height: 45vh;
+    border: 20px orangered groove;
+    margin: 10px;
+    background-image: url("dog.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+/*background-size - cover */
+#dogb6{
+    width: 35%;
+    height: 45vh;
+    border: 20px orangered groove;
+    margin: 10px;
+    background-image: url("dog.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*background- position */
+#dogb7{
+    width: 50%;
+    height: 70vh;
+    border: 20px blue groove;
+    margin: 10px;
+    background-image: url("dog.png");
+    background-repeat: no-repeat;
+    background-position: 300px 20px;
+}
+/*background- origin */
+#dogb8{
+    width: 70%;
+    height: 70vh;
+    padding: 20px;
+    border: 20px black solid;
+    margin: 10px;
+    color: white;
+    background-image:
+            /*linear-gradient(rgba(0,0,255,0.5), rgba(0,0,255,0.5)),*/
+            url("dog.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-origin: content-box;
+    background-color: blue;
+}

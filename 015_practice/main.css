@@ -1,0 +1,57 @@
+html, body, div {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 3vw;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Lucida Bright', sans-serif;
+
+}
+
+#counter{
+    width: 20rem;
+    height: 6rem;
+    display: flex;
+}
+#minus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    font-size: 2rem;
+    font-weight: normal;
+    border-radius: 10px 0 0 10px;
+    background-color: lightgrey;
+    text-decoration: none;
+    color: black;
+}
+#num{
+    display: flex;
+    justify-content: center;
+    flex-grow: 2;
+    align-items: center;
+    font-size: 2rem;
+    background-color: dimgray;
+}
+
+#pulus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    font-size: 2rem;
+    border-radius: 0 10px 10px 0;
+    background-color: lightgrey;
+    text-decoration: none;
+    color: black;
+}
+#minus:hover, #pulus:hover{
+    background-color: #9dbb88;
+    color: blue;
+}

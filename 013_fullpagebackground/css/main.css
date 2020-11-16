@@ -1,0 +1,166 @@
+html {
+    font-family: 'Cantarell', sans-serif;
+    color: whitesmoke;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2.8rem;
+    display: flex;
+    /*flex-direction: row;*/
+    /*flex-wrap: nowrap;*/
+    /*flex-flow: row nowrap;*/
+    justify-content: center;
+    align-items: center;
+    /* formatting */
+    background-color: rgba(0,0,0,.6);
+}
+
+header div, header nav {
+    width: 150px;
+    /*height: 80%;*/
+    margin: 0 1rem;
+    /* TEMPORARY */
+    /*background-color: red;*/
+}
+header nav{
+    display: none;
+}
+
+ul{
+    /*display: flex;*/
+    /*justify-content: space-around;*/
+    /*align-items: center;*/
+    /*border: 2px solid gray;*/
+    /*border-radius: 5px;*/
+    /*padding: 5px 0;*/
+    display: none;
+}
+li{
+    width:100%;
+}
+a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.4em 0;
+    /*background-color: #f60078;*/
+    border-radius: 3px;
+}
+svg {
+    /*border: 1px solid hotpink;*/
+    /*width: 20px;*/
+    width: 1.5em;
+    /*height: 100%;*/
+    height: 1.5em;
+    fill: currentColor;
+    vertical-align: -0.15em;
+    overflow: hidden;
+    display: none;
+}
+svg#ftsvg{
+    display: inline-flex;
+}
+a:hover{
+    background-color: rgba(186,186,186,0.5);
+    color: #9dbb88;
+}
+
+#tnav{
+    display: none;
+}
+
+header div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header div a{
+padding: 0.4em 0.4em;
+}
+
+#idx-atf {
+    /* layout */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background */
+    background-color: #5b5b5b;
+    background-image: url("../img/background-photo-mobile-devices.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /*background-origin: border-box;*/
+    background-attachment: fixed;
+    /* formatting */
+}
+
+#idx-atf > div {
+    height: 85vh;
+}
+
+.idx-center-spacebetween {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.idx-center-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.4rem;
+    text-align: center;
+    margin-top: .8rem;
+    line-height: 1.2;
+}
+
+button {
+    color: rgb(202, 250, 234);
+    font-size: 1.4rem;
+    font-weight: 700;
+    border: 1px solid rgb(202, 250, 234);
+    padding: .7rem 1.2rem;
+    border-radius: 3px;
+}
+#tdiv{
+    display: inline;
+    margin-left:10px;
+}
+footer{
+    font-size: 0.9em;
+}
+footer nav{
+display: flex;
+    flex-flow: column nowrap;
+
+}
+footer nav a{
+    justify-content: flex-start;
+    width: 100%;
+    background-color: deepskyblue;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    border-top: 1px solid rgba(255,255,255,0.2);
+    border-radius: 0;
+    padding-left: 10px;}
